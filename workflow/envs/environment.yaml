@@ -1,0 +1,17 @@
+name: brain-benchmark
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.*
+  - scikit-learn=1.3.*
+  - pandas=2.1.*
+  - seaborn=0.13.*
+  - ipykernel
+  - pip
+  - pyarrow
+  - causalml
+  - tqdm
+  - jupyter
+  - jupyterlab_code_formatter
+  - pip:
+    - simple-icd-10
